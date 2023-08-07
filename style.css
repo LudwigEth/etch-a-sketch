@@ -14,8 +14,11 @@
     flex-direction: column;
 }
 
-.gameBorder {
+.bg-color {
     background-color: red;
+}
+
+.gameBorder {
     border: 1rem ridge red;
 }
 
