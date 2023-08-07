@@ -17,3 +17,10 @@
 .gameBorder {
     background-color: red;
 }
+
+/* gameconsole elements */
+
+.top {
+    height: 3rem;
+    width: 100%;
+}
