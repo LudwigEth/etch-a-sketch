@@ -24,17 +24,27 @@
 
 /* gameconsole elements */
 
-.top, .bottom {
+.etch-a-sketch {
+    max-height: 600px;
+    max-width: 800px;
+}
+
+.top,
+.bottom {
     height: 6rem;
     width: 100%;
 }
 
-.left, .right {
-    height: 36rem;
+.left,
+.right {
     width: 6rem;
 }
 
 .center {
     width: 100%;
     height: 36rem;
+}
+
+.game-screen {
+    height: 100%;
 }
