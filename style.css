@@ -24,7 +24,7 @@
 
 /* gameconsole elements */
 
-.top {
+.top, .bottom {
     height: 6rem;
     width: 100%;
 }
