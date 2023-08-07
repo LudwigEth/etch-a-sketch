@@ -16,6 +16,7 @@
 
 .gameBorder {
     background-color: red;
+    border: 1rem ridge red;
 }
 
 /* gameconsole elements */
