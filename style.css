@@ -65,8 +65,9 @@ body {
 
 .game-title {
     font-size: 3rem;
-    letter-spacing: -2px;
-    word-spacing: -2px;
+    word-spacing: -8px;
+    font-family: 'Brush Script MT', sans-serif;
+                                                
 }
 
 .game-screen {
