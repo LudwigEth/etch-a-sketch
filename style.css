@@ -67,7 +67,12 @@ body {
     font-size: 3rem;
     word-spacing: -8px;
     font-family: 'Brush Script MT', sans-serif;
-                                                
+}
+
+.registered {
+    font-size: 1rem;
+    position: relative;
+    top: -1rem;
 }
 
 .game-screen {
