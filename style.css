@@ -63,6 +63,12 @@ body {
     width: 100%;
 }
 
+.game-title {
+    font-size: 3rem;
+    letter-spacing: -2px;
+    word-spacing: -2px;
+}
+
 .game-screen {
     height: 100%;
     width: 100%;
