@@ -64,8 +64,8 @@ body {
 
 .bottom {
     justify-content: space-between;
-    color: #de2112;
-    text-shadow: 1px 1px 0 #111;
+    color: #00000090;
+    text-shadow: 1px 0 0 #111;
 }
 
 .game-title {
