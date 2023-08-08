@@ -100,3 +100,13 @@ body {
     border-radius: 50%;
     box-shadow: 1px 1px 1px black;
 }
+
+.h-arrows {
+    gap: 10px;
+}
+
+.h-arrows,
+.v-arrows {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
