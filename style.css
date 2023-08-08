@@ -85,5 +85,12 @@ body {
 .knob {
     width: 6rem;
     height: 6rem;
-    background-color: white;
+}
+
+.rotatingKnob {
+    height: 100%;
+    width: 100%;
+    background-color: #FFFDD0;
+    border: 8px dashed #eeecc0;
+    border-radius: 50%;
 }
