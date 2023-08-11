@@ -29,3 +29,9 @@ body {
 .bg-color {
     background-color: 	#F8C8DC;
 }
+
+/* only while visualizing the layout */
+
+div {
+    border: 1px solid black;
+}
