@@ -68,4 +68,5 @@ div {
     border-radius: 50%;
     box-shadow: 1px 1px 1px black;
     gap: 16px;
+    font-size: 20px;
 }
