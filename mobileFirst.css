@@ -43,3 +43,10 @@ body {
 div {
     border: 1px solid black;
 }
+
+/* etch-a-sketch main game layout */
+
+.etch-a-sketch {
+    width: 90%;
+    height: 100%;
+}
