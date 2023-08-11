@@ -8,3 +8,20 @@ body {
     height: 100vh;
     background-color: #C1E1C1;
 }
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.centering {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    flex: 1;
+}
