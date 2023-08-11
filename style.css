@@ -41,8 +41,9 @@ body {
 /* gameconsole elements */
 
 .etch-a-sketch {
-    width: 50rem;
-    min-height: 40rem;
+    width: 90vw;
+    height: 50vh;
+    border: 1px solid red;
 }
 
 .top,
@@ -53,8 +54,8 @@ body {
 
 .left,
 .right {
-    height: 34rem;
-    width: 6rem;
+    height: 100%;
+    width: 100%;
 }
 
 .center {
