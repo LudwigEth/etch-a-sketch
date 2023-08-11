@@ -55,6 +55,10 @@ div {
     background-color: #efefef;
 }
 
+.eas-bottom {
+    justify-content: space-between;
+}
+
 .left-knob,
 .right-knob {
     width: 90px;
