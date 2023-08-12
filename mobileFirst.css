@@ -38,12 +38,6 @@ body {
     background-color: 	#F8C8DC;
 }
 
-/* only while visualizing the layout */
-
-div {
-    border: 1px solid black;
-}
-
 /* etch-a-sketch main game layout */
 
 .etch-a-sketch {
