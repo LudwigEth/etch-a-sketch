@@ -52,12 +52,13 @@ body {
 
 .screen {
     background-color: #efefef;
+    border: 1px solid #00000020;
 }
 
 .eas-bottom {
     justify-content: space-between;
     align-items: center;
-    padding: 0 4px;
+    padding: 4px 4px;
 }
 
 .left-knob,
