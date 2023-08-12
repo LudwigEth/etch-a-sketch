@@ -9,10 +9,12 @@ body {
     background-color: #C1E1C1;
 }
 
+
 /* utility classes */
 
 .container {
     display: flex;
+    width: 100%;
 }
 
 .column {
@@ -28,90 +30,52 @@ body {
     flex: 1;
 }
 
+.main {
+    flex: 5;
+}
+
 .bg-color {
     background-color: 	#F8C8DC;
 }
 
-.gameBorder {
-    border: 8px solid black;
-    border-radius: 12px;
-    box-shadow: 8px 8px 10px black;
-}
-
-/* gameconsole elements */
+/* etch-a-sketch main game layout */
 
 .etch-a-sketch {
-    width: 90vw;
-    height: 50vh;
-    border: 1px solid red;
-}
-
-.top,
-.bottom {
-    height: 6rem;
-    width: 100%;
-}
-
-.left,
-.right {
+    width: 90%;
     height: 100%;
-    width: 100%;
+    max-width: 800px;
+    max-height: 800px;
+    border: 8px solid #3A1F04;
+    border-radius: 4px;
+    box-shadow: 0 12px 12px #21212190;
 }
 
-.center {
-    width: 100%;
-    height: 100%;
-}
-
-.bottom {
-    justify-content: space-between;
-    color: #00000090;
-}
-
-.game-title {
+.eas-title {
     font-size: 3rem;
     word-spacing: -8px;
     font-family: 'Brush Script MT', sans-serif;
-    padding: 1rem;
     text-shadow: 1px 1px 1px #00000080;
 }
 
-.registered {
-    font-size: 1rem;
-    position: relative;
-    top: -1rem;
-}
-
-.game-screen {
-    height: 100%;
-    width: 100%;
+.screen {
     background-color: #efefef;
+    border: 1px solid #00000020;
 }
 
-.knob {
-    width: 6rem;
-    height: 6rem;
+.eas-bottom {
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 4px;
 }
 
-.rotatingKnob {
-    height: 100%;
-    width: 100%;
-    background-color: #FFFDD0;
+.left-knob,
+.right-knob {
+    width: 90px;
+    height: 90px;
+    background-color: #fffdd0;
     border: 8px dashed #eeecc0;
     border-radius: 50%;
     box-shadow: 1px 1px 1px black;
-}
-
-.h-arrows {
-    gap: 10px;
-}
-
-.h-arrows,
-.v-arrows {
-    font-size: 1.2rem;
-    font-weight: bolder;
-}
-
-.tile:hover {
-    background-color: #F8C8DC;
+    gap: 16px;
+    font-size: 20px;
 }

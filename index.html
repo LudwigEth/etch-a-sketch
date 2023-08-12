@@ -4,40 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
-    <title>Document</title>
+    <title>Etch-A-Sketch</title>
 </head>
 <body class="container column centering">
-    <div class="container flex"></div>
-    <div class="etch-a-sketch container column gameBorder bg-color">
-        <div class="container centering top">
-            <p>MAGIC</p>
-            <h1 class="game-title">Etch ASketch<span class="registered">&reg;</span></h1>
-            <p>SCREEN</p>
-        </div>
-        <div class="container bg-color flex">
-            <div class="container column left">
-                <div class="container flex"></div>
-                <div class="container centering knob">
-                    <div class="container centering rotatingKnob h-arrows">
+    <div class="container flex">top</div>
+    <div class="container main centering">
+        <div class="etch-a-sketch container column centering bg-color">
+            <div class="container flex centering eas-top">
+                <h1 class="eas-title">Etch ASketch</h1>
+            </div>
+            <div class="container main eas-middle">
+                <div class="container left-bar flex"></div>
+                <div class="container screen main"></div>
+                <div class="container right-bar flex"></div>
+            </div>
+            <div class="container flex eas-bottom">
+                    <div class="container centering left-knob">
                         <div class="arrow-left">⬅</div>
                         <div class="arrow-right">⮕</div>
                     </div>
-                </div>
-            </div>
-            <div class="container column center">
-                <!-- game screen section -->
-                <div class="game-screen flex">
-
-                </div>
-                <div class="container">
-                    <div class="container bottom"></div>
-                </div>
-            </div>
-            <div class="container column right">
-                <div class="container flex"></div>
-                <div class="container centering knob">
-                    <div class="container column centering rotatingKnob v-arrows">
+                    <div class="container centering right-knob">
                         <div class="arrow-up">⬆</div>
                         <div class="arrow-down">⬇</div>
                     </div>
@@ -45,6 +31,6 @@
             </div>
         </div>
     </div>
-    <div class="container flex"></div>
+    <div class="container flex">bottom</div>
 </body>
 </html>
