@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <title>Etch-A-Sketch</title>
 </head>
 <body class="container column centering">
-    <div class="container flex">top</div>
+    <div class="container flex"></div>
     <div class="container main centering">
         <div class="etch-a-sketch container column centering bg-color">
             <div class="container flex centering eas-top">
                 <h1 class="eas-title">Etch ASketch</h1>
             </div>
-            <div class="container main eas-middle">
+            <div class="container centering main eas-middle">
                 <div class="container left-bar flex"></div>
                 <!-- javascript screen -->
-                <div class="container screen main">
-                    
+                <div class="container column screen">
+
                 </div>
                 <div class="container right-bar flex"></div>
             </div>
             <div class="container flex eas-bottom">
-                    <div class="container centering left-knob">
-                        <div class="arrow-left">⬅</div>
-                        <div class="arrow-right">⮕</div>
-                    </div>
-                    <div class="container centering right-knob">
-                        <div class="arrow-up">⬆</div>
-                        <div class="arrow-down">⬇</div>
-                    </div>
+                        <button id="matchaMode">🍵</button>
+                        <div class="container centering">
+                            <label for="rangeInput">Tiles: </label>
+                            <input id="rangeInput" type="range" min="1" max="100" value="16">
+                            <span id="labelOutput"></span>
+                        </div>
+                        
+                        <button id="grid-clear">🗑️</button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container flex">bottom</div>
+    <div class="container flex">
+    </div>
 </body>
 </html>
